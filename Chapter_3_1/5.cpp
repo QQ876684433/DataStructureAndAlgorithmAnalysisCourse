@@ -54,6 +54,7 @@ int getResult(string exp) {
             operation.push(ch);
         }
     }
+    //计算操作符栈的剩余操作符
     while (!operation.empty()) {
         calculate(operation.top(), operand);
         operation.pop();
