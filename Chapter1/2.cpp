@@ -2,10 +2,6 @@
 // Created by steve on 18-9-4.
 //
 
-//
-// Created by steve on 18-9-4.
-//
-
 #include <iostream>
 
 void solve(int n, char from, char to, char temp);
