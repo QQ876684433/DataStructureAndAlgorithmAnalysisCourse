@@ -38,6 +38,7 @@ int getResult(string exp) {
                 calculate(operation.top(), operand);
                 operation.pop();
             }
+            operation.pop();
         } else if (ch == '+' || ch == '-') {
             while (!operation.empty() && (operation.top() == '+' || operation.top() == '-' || operation.top() == '*' ||
                                           operation.top() == '/')) {
