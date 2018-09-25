@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.12)
+project(excise)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(excise main.cpp)
+add_executable(Chapter1_1 Chapter1/1.cpp)
+add_executable(Chapter1_2 Chapter1/2.cpp)
+add_executable(Chapter1_Exc_1 Chapter1/Exc_1.cpp)
+add_executable(Chapter1_Exc_2 Chapter1/Exc_2.cpp)
+add_executable(Chapter1_Exc_3 Chapter1/Exc_3.cpp)
+add_executable(Chapter1_Exc_4 Chapter1/Exc_4.cpp)
+add_executable(Chapter1_Exc_5 Chapter1/Exc_5.cpp)
