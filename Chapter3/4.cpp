@@ -26,7 +26,10 @@ void Josephus_in_array(int *arr, int n, int m) {
 }
 
 int main() {
-    int arr[8] = {1,2,3,4,5,6,7,8};
-    Josephus_in_array(arr,8,3);
+    int arr[531] ;
+    for (int i = 1; i <= 531; ++i) {
+        arr[i-1] = i;
+    }
+    Josephus_in_array(arr,531,27);
     return 0;
 }
